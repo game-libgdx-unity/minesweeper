@@ -2,7 +2,7 @@
 
 - This is an unity project (2017.3 or even older versions should work)
 - I used UniRx and Zenject plugins.
-- If you want to run test, in Unity editor, open "Windows/Test runner".
+- This C# code is using reactive programming, dependency injection and testable. in Unity editor, open "Windows/Test runner".
 - Game Scene is located at App/Scene/Game.unity
 
 This repository implements a function that will generate a field for the minesweeper game. The function name should be GenerateMineField and it should take field width and height, and a number of mines on the field.
