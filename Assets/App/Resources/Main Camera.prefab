@@ -98,9 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a91cb3fb5424175b66accfc34d8ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasPrefab: {fileID: 1051674695283124, guid: 19448f3dae4a44677ad97fc87bbee7d2,
-    type: 2}
-  cellPrefab: {fileID: 1280296024193312, guid: 79eda2ce70e3b44a39cba086f769beb6, type: 2}
 --- !u!114 &114074779925387014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,7 +112,8 @@ MonoBehaviour:
   _installers:
   - {fileID: 114015390007054368}
   _installerPrefabs: []
-  _scriptableObjectInstallers: []
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: 3a05a157ead7c45f1989ba960cba719c, type: 2}
   _autoRun: 1
   _parentNewObjectsUnderRoot: 0
   _contractNames: []

@@ -16,9 +16,9 @@ using Zenject;
 [SelectionBase]
 public class Cell : MonoBehaviour, ICell
 {
+    private IReactiveProperty<CellType> CellType = new ReactiveProperty<CellType>();
+    
     private CellData cellData { get; set; }
-    private ReactiveProperty<CellType> cellType = new ReactiveProperty<CellType>();
-    private Subject<PointerEventData> OnImageClick = new Subject<PointerEventData>();
     private Text textUI;
     private Image background;
     private Outline outline;
@@ -32,23 +32,17 @@ public class Cell : MonoBehaviour, ICell
 
         outline.effectColor = Color.black;
 
-        //only allow to click if this cell hasn't opened yet.
-        background.OnPointerClickAsObservable()
-            .Where(args => cellType.Value == CellType.UNOPENED)
-            .Subscribe(args => OnImageClick.OnNext(args))
-            .AddTo(gameObject);
-
         //when number of adjacent mines get changed
         cellData.AdjacentMines
             .Where(mines => mines > 0)
-            .Subscribe(mines => { cellType.Value = (CellType) mines; })
+            .Subscribe(mines => { CellType.Value = (CellType) mines; })
             .AddTo(this);
-        
+
         cellData.IsFlagged
             .Where(isFlagged => isFlagged)
-            .Subscribe(isFlagged => { cellType.Value = CellType.FLAGGED; })
+            .Subscribe(isFlagged => { CellType.Value = global::CellType.FLAGGED; })
             .AddTo(this);
-        
+
         cellData.IsRevealed
             .Subscribe(isRevealed =>
             {
@@ -60,12 +54,12 @@ public class Cell : MonoBehaviour, ICell
         cellData.IsMine
             .Where(isMine => isMine)
             .SelectMany(cellData.IsRevealed)
-            .Where(isRevealed=>isRevealed)
-            .Subscribe(isMined => { cellType.Value = CellType.MINE; })
+            .Where(isRevealed => isRevealed)
+            .Subscribe(isMined => { CellType.Value = global::CellType.MINE; })
             .AddTo(this);
 
-        //change UI when cellType change
-        cellType.Where(c => c != CellType.UNOPENED)
+        //change UI when CellType change
+        CellType.Where(c => c != global::CellType.UNOPENED)
             .Subscribe(type =>
             {
                 textUI.color = Color.black;
@@ -126,11 +120,6 @@ public class Cell : MonoBehaviour, ICell
     public void SetCellData(CellData data)
     {
         this.cellData = data;
-    }
-
-    public CellData GetCellData()
-    {
-        return cellData;
     }
 
     public void SetParent(Transform parent)

@@ -1,4 +1,4 @@
-﻿﻿using System.Collections;
+﻿﻿﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using App.Scripts.Boards;
@@ -10,14 +10,12 @@ using Zenject;
 
 public class MapGenerator : MonoBehaviour
 {
-    [SerializeField] private Transform container;
-
-    [SerializeField] private int width;
-    [SerializeField] private int height;
-    [SerializeField] private int mineCount;
+    
     [SerializeField] private GridLayoutGroup gridLayout;
     [SerializeField] private Button btnRestart;
-
+    [SerializeField] private RectTransform container;
+    
+    [Inject] private GameSetting gameSetting;
     [Inject] private IGameBoard gameBoard;
     [Inject] private IFactory<ICell> cellFactory;
     [Inject] private IList<ICell> cells;
@@ -50,10 +48,10 @@ public class MapGenerator : MonoBehaviour
 
         //setup the layout
         gridLayout.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
-        gridLayout.constraintCount = width;
+        gridLayout.constraintCount = gameSetting.Width;
 
         //build the board
-        gameBoard.Build(width, height, mineCount, cellData);
+        gameBoard.Build(gameSetting.Width, gameSetting.Height, gameSetting.MineCount, cellData);
 
         //create cells
         foreach (var data in cellData)

@@ -1,4 +1,8 @@
-﻿﻿using System;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UniRx;
+using Zenject;
+using Random = System.Random;
 using System.Collections.Generic;
 using System.Linq;
 using UniRx;
@@ -11,16 +15,29 @@ namespace App.Scripts.Boards
         [Inject] private CellData.Factory cellDataFactory;
         [Inject] private IList<CellData> Cells { get; set; }
         [Inject] private IReactiveProperty<GameStatus> Status { get; set; }
-
-        public int Width { get; set; }
-        public int Height { get; set; }
-        public int MineCount { get; set; }
+        [Inject] public GameSetting GameSettings { get; set; }
+        
+        public int Width
+        {
+            get { return GameSettings.Width; }
+            set { GameSettings.Width = value; }
+        }
+        public int Height
+        {
+            get { return GameSettings.Height; }
+            set { GameSettings.Height = value; }
+        }
+        public int MineCount
+        {
+            get { return GameSettings.MineCount; }
+            set { GameSettings.MineCount = value; }
+        }
 
         public void Build(int width, int height, int mines, IList<CellData> cells)
         {
-            Width = width;
-            Height = height;
-            MineCount = mines;
+            GameSettings.Width = width;
+            GameSettings.Height = height;
+            GameSettings.MineCount = mines;
 
             cells.Clear();
 
@@ -40,7 +57,7 @@ namespace App.Scripts.Boards
         {
             return Cells.First(z => z.X == x && z.Y == y);
         }
-        
+
         public void Open(int x, int y)
         {
             //Find the Specified CellData
@@ -83,8 +100,7 @@ namespace App.Scripts.Boards
 
         public void FirstMove(int x, int y, Random rand)
         {
-            var depth = 0.125 * Width; 
-            var neighbors = GetNeighbors(x, y, (int) depth); 
+            var neighbors = GetNeighbors(x, y);
             neighbors.Add(GetCellAt(x, y)); //Don't place a mine in the user's first move!
 
             //Select random cells from set of cells which are not excluded by the first-move rule
@@ -114,7 +130,7 @@ namespace App.Scripts.Boards
             return nearbyCells.Except(currentCell).ToList();
         }
 
-        
+
         private void CheckForCompletion()
         {
             var hiddenCells = Cells.Where(x => !x.IsRevealed.Value).Select(x => x.ID);
@@ -133,5 +149,6 @@ namespace App.Scripts.Boards
                 cell.IsFlagged.Value = true;
             }
         }
+
     }
 }

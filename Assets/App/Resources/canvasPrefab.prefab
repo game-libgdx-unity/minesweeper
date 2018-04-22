@@ -184,12 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b948dae65a54a389b5f70870f11af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  container: {fileID: 224527831279426470}
-  width: 10
-  height: 10
-  mineCount: 12
   gridLayout: {fileID: 114830769664376612}
   btnRestart: {fileID: 114462986085617252}
+  container: {fileID: 224527831279426470}
 --- !u!114 &114462986085617252
 MonoBehaviour:
   m_ObjectHideFlags: 1

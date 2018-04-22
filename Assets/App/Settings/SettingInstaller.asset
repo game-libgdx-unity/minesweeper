@@ -11,3 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d70a1b57fa574d09b1ca4f0ec1883ab, type: 3}
   m_Name: SettingInstaller
   m_EditorClassIdentifier: 
+  gameSetting:
+    Width: 10
+    Height: 10
+    MineCount: 12
+    cellPrefab: {fileID: 1280296024193312, guid: 79eda2ce70e3b44a39cba086f769beb6,
+      type: 2}
+    canvasPrefab: {fileID: 1051674695283124, guid: 19448f3dae4a44677ad97fc87bbee7d2,
+      type: 2}
