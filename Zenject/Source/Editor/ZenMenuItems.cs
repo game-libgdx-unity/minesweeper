@@ -153,7 +153,7 @@ namespace Zenject
                 + "\nusing NUnit.Framework;"
                 + "\n"
                 + "\n[TestFixture]"
-                + "\npublic class CLASS_NAME : ZenjectUnitTestFixture"
+                + "\npublic class CLASS_NAME : UnitTestFixture"
                 + "\n{"
                 + "\n    [Test]"
                 + "\n    public void RunTest1()"

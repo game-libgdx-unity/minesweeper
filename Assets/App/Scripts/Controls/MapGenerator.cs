@@ -1,4 +1,4 @@
-﻿﻿﻿using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using App.Scripts.Boards;
@@ -10,11 +10,10 @@ using Zenject;
 
 public class MapGenerator : MonoBehaviour
 {
-    
     [SerializeField] private GridLayoutGroup gridLayout;
     [SerializeField] private Button btnRestart;
     [SerializeField] private RectTransform container;
-    
+
     [Inject] private GameSetting gameSetting;
     [Inject] private IGameBoard gameBoard;
     [Inject] private IFactory<ICell> cellFactory;
@@ -33,7 +32,7 @@ public class MapGenerator : MonoBehaviour
         //setup game status
         gameStatus.Subscribe(status =>
             {
-                print("Game status: "+gameStatus.Value.ToString());
+                print("Game status: " + status.ToString());
                 btnRestart.gameObject.SetActive(status != GameStatus.InProgress);
             })
             .AddTo(gameObject);

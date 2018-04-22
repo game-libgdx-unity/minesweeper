@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,10 +5,13 @@ using Zenject;
 using NUnit.Framework;
 using System.Linq;
 using App.Scripts.Boards;
+using NUnit.Framework.Internal;
 using UniRx;
+using UnityEngine;
+using Random = System.Random;
 
 [TestFixture]
-public class GameBoardTest : ZenjectUnitTestFixture
+public class GameBoardTest : UnitTestFixture
 {
     const int width = 10;
     const int height = 10;
@@ -21,17 +23,16 @@ public class GameBoardTest : ZenjectUnitTestFixture
     [SetUp]
     public void CommonInstall()
     {
-        Container.Bind<IReactiveProperty<GameStatus>>().FromInstance(new ReactiveProperty<GameStatus>()).AsSingle();
-        Container.Bind<IntReactiveProperty>().FromInstance(new IntReactiveProperty()).AsTransient();
-        Container.Bind<BoolReactiveProperty>().FromMethod(_ => new BoolReactiveProperty()).AsTransient();
-        Container.BindFactory<int, int, int, CellData, CellData.Factory>().FromNew();
-        Container.BindFactoryContract<ICell, IFactory<ICell>, Cell.Factory>()
-            .FromComponentInNewPrefabResource("cellPrefab");
-        Container.Bind<IList<ICell>>().FromInstance(new List<ICell>()).AsSingle();
-        Container.Bind<IList<CellData>>().FromInstance(new List<CellData>()).AsSingle();
-        Container.Bind<Random>().FromMethod(_ => new Random()).AsTransient();
-        Container.Bind<IGameBoard>().To<GameBoard>().AsSingle().NonLazy();
-        Container.Bind<IGameSolver>().To<GameSolver>().AsSingle().NonLazy();
+        var gameObject = new GameObject();
+        var context = gameObject.AddComponent<SceneContext>();
+        var gameInstaller = gameObject.AddComponent<GameInstaller>();
+        var gameSetting = Resources.Load<SettingInstaller>("SettingInstaller");
+
+        context.ScriptableObjectInstallers = new List<ScriptableObjectInstaller>() {gameSetting};
+        context.Installers = new List<MonoInstaller>() {gameInstaller};
+        
+        context.Install();
+        Container = context.Container;
     }
 
     [Test]
@@ -48,8 +49,9 @@ public class GameBoardTest : ZenjectUnitTestFixture
         Assert.AreEqual(width * height, cells.Count); //total of cells
         Assert.AreEqual(mines, cells.Count(cell => cell.IsMine.Value)); //total of mines
     }
-    
-    [Test]
+
+    [
+        Test]
     public void Test_GameBoard_FirstMove()
     {
         //Arrange
@@ -61,9 +63,10 @@ public class GameBoardTest : ZenjectUnitTestFixture
         gameBoard.FirstMove(firstMoveX, firstMoveY, random);
         //Assert
         Assert.IsFalse(gameBoard.GetCellAt(firstMoveX, firstMoveY).IsMine.Value); //first move shouldn't get mine
-    }  
-    
-    [Test]
+    }
+
+    [
+        Test]
     public void Test_GameBoard_AdjacentMines()
     {
         //Arrange
@@ -80,11 +83,11 @@ public class GameBoardTest : ZenjectUnitTestFixture
         gameBoard.GetCellAt(1, 3).IsMine.Value = false;
         gameBoard.GetCellAt(2, 3).IsMine.Value = true;
         gameBoard.GetCellAt(3, 3).IsMine.Value = false; //there are 4 mines around (2,2)
-        
+
         //Assert
         Assert.AreEqual(4, gameBoard.GetNeighbors(2, 2).Count(z => z.IsMine.Value));
-    }  
-    
+    }
+
     [Test]
     public void Test_GameBoard_Solver()
     {
@@ -95,19 +98,21 @@ public class GameBoardTest : ZenjectUnitTestFixture
         var gameStatus = Container.Resolve<IReactiveProperty<GameStatus>>();
         //Act
         gameBoard.Build(width, height, mines, cells);
-        Observable.FromCoroutine(_=>solver.Solve(0f)).Subscribe(_ =>
+        Observable.FromCoroutine(_ => solver.Solve(0f)).Subscribe(_ =>
         {
             //Assert
-            //game should finised
+            //game should finish
             ModestTree.Assert.IsEqual(true, gameStatus.Value != GameStatus.InProgress);
-            
+
             if (gameStatus.Value == GameStatus.Completed) //if solver success
             {
-                ModestTree.Assert.IsEqual(cells.Count(data => data.IsMine.Value), cells.Count(data => data.IsFlagged.Value));
+                ModestTree.Assert.IsEqual(cells.Count(data => data.IsMine.Value),
+                    cells.Count(data => data.IsFlagged.Value));
             }
-            else  //if solver failed
+            else //if solver failed
             {
-                ModestTree.Assert.IsNotEqual(cells.Count(data => data.IsMine.Value), cells.Count(data => data.IsFlagged.Value));
+                ModestTree.Assert.IsNotEqual(cells.Count(data => data.IsMine.Value),
+                    cells.Count(data => data.IsFlagged.Value));
             }
         });
     }

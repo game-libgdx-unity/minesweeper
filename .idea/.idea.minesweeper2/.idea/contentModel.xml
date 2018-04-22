@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_minesweeper2.123847679.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets/App" t="Include">
+        <e p="Editor" t="Include">
+          <e p="GameBoardTest.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
+          <e p="TestUI.cs" t="Include" />
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="Development" t="Include">
+            <e p="TestRxCreate.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Boards" t="Include">
+            <e p="GameBoard.cs" t="Include" />
+            <e p="GameSetting.cs" t="Include" />
+            <e p="GameSolver.cs" t="Include" />
+            <e p="IBoard.cs" t="Include" />
+            <e p="IGameBoard.cs" t="Include" />
+          </e>
+          <e p="Cells" t="Include">
+            <e p="CellData.cs" t="Include" />
+            <e p="CellType.cs" t="Include" />
+            <e p="GameStatus.cs" t="Include" />
+            <e p="ICell.cs" t="Include" />
+          </e>
+          <e p="Controls" t="Include">
+            <e p="Cell.cs" t="Include" />
+            <e p="MapGenerator.cs" t="Include" />
+          </e>
+          <e p="Installers" t="Include">
+            <e p="GameInstaller.cs" t="Include" />
+            <e p="SettingInstaller.cs" t="Include" />
+          </e>
+          <e p="Solvers" t="Include">
+            <e p="GameSolver.cs" t="Include" />
+            <e p="IGameSolver.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="minesweeper2.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

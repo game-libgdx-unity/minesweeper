@@ -15,19 +15,14 @@ namespace Zenject
     // several classes, or if you want to use interfaces such as IInitializable or IDisposable,
     // then I recommend using ZenjectIntegrationTestFixture instead
     // See documentation for details
-    public abstract class ZenjectUnitTestFixture
+    public abstract class UnitTestFixture
     {
         DiContainer _container;
 
         protected DiContainer Container
         {
             get { return _container; }
-        }
-
-        [SetUp]
-        public virtual void Setup()
-        {
-            _container = new DiContainer();
+            set { _container = value; }
         }
     }
 }
