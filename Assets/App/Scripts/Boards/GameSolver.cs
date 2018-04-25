@@ -24,12 +24,10 @@ namespace App.Scripts.Boards
         {
             yield return new WaitForSeconds(waitForNextStep);
 
-            CellData.ForEach(t => { });
+            Debug.Log("New Turn");
 
             while (Status.Value == GameStatus.InProgress)
             {
-                Debug.Log("New Turn");
-
                 if (!CellData.Any(x => x.IsRevealed.Value))
                 {
                     RandomFirstMove();
@@ -41,7 +39,7 @@ namespace App.Scripts.Boards
 
                 if (HasAvailableMoves())
                 {
-                    ObviousNumbers();
+                    CalculateNumberOfMines();
                     yield return new WaitForSeconds(waitForNextStep);
                 }
                 else
@@ -50,7 +48,7 @@ namespace App.Scripts.Boards
                     yield return new WaitForSeconds(waitForNextStep);
                 }
 
-                EndTurn();
+                EndTurn_OpenAllCells();
             }
 
             RevealAllMines();
@@ -103,7 +101,6 @@ namespace App.Scripts.Boards
 
         private bool HasAvailableMoves()
         {
-            //Find any numbered panel where the number of flags around it equals its number, then click on every square around that.
             var numberedCells = CellData.Where(x => x.IsRevealed.Value && x.AdjacentMines.Value > 0);
             foreach (var numberPanel in numberedCells)
             {
@@ -119,23 +116,19 @@ namespace App.Scripts.Boards
             return false;
         }
 
-        private void ObviousNumbers()
+        private void CalculateNumberOfMines()
         {
-            Debug.Log("ObviousNumbers");
+            Debug.Log("CalculateNumberOfMines");
 
             var numberedCells = CellData.Where(x => x.IsRevealed.Value && x.AdjacentMines.Value > 0);
             foreach (var numberCell in numberedCells)
             {
-                //Foreach number panel
                 var neighborCells = Board.GetNeighbors(numberCell.X, numberCell.Y);
 
-                //GetCellAt all of that panel's flagged neighbors
                 var flaggedNeighbors = neighborCells.Where(x => x.IsFlagged.Value);
 
-                //If the number of flagged neighbors equals the number in the current panel...
                 if (flaggedNeighbors.Count() == numberCell.AdjacentMines.Value)
                 {
-                    //All hidden neighbors must *not* have mines in them, so reveal them.
                     foreach (var hiddenPanel in neighborCells.Where(x => !x.IsRevealed.Value && !x.IsFlagged.Value))
                     {
                         Board.Open(hiddenPanel.X, hiddenPanel.Y);
@@ -151,13 +144,10 @@ namespace App.Scripts.Boards
             var numberCells = CellData.Where(x => x.IsRevealed.Value && x.AdjacentMines.Value > 0);
             foreach (var cell in numberCells)
             {
-                //For each revealed number panel on the board, get its neighbors.
                 var neighborCells = Board.GetNeighbors(cell.X, cell.Y);
 
-                //If the total number of hidden cells == the number of mines revealed by this panel...
                 if (neighborCells.Count(x => !x.IsRevealed.Value) == cell.AdjacentMines.Value)
                 {
-                    //All those adjacent hidden cells must be mines, so flag them.
                     foreach (var neighbor in neighborCells.Where(x => !x.IsRevealed.Value))
                     {
                         Board.Flag(neighbor.X, neighbor.Y);
@@ -166,15 +156,13 @@ namespace App.Scripts.Boards
             }
         }
 
-        private void EndTurn()
+        private void EndTurn_OpenAllCells()
         {
-            Debug.Log("EndTurn");
+            Debug.Log("EndTurn_OpenAllCells");
 
-            //Count all the flagged cells.  If the number of flagged cells == the number of mines on the board, reveal all non-flagged cells.
             var flaggedCells = CellData.Count(x => x.IsFlagged.Value);
             if (flaggedCells == Board.MineCount)
             {
-                //Open all hidden, unflagged cells
                 var hiddenCells = CellData.Where(x => !x.IsFlagged.Value && !x.IsRevealed.Value);
                 foreach (var cell in hiddenCells)
                 {

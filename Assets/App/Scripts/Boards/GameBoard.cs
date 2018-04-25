@@ -16,21 +16,31 @@ namespace App.Scripts.Boards
         [Inject] private IList<CellData> Cells { get; set; }
         [Inject] private IReactiveProperty<GameStatus> Status { get; set; }
         [Inject] public GameSetting GameSettings { get; set; }
-        
+
         public int Width
         {
             get { return GameSettings.Width; }
             set { GameSettings.Width = value; }
         }
+
         public int Height
         {
             get { return GameSettings.Height; }
             set { GameSettings.Height = value; }
         }
+
         public int MineCount
         {
             get { return GameSettings.MineCount; }
             set { GameSettings.MineCount = value; }
+        }
+
+        /// <summary>
+        /// Build a map using from setting file
+        /// </summary>
+        public void Build()
+        {
+            Build(GameSettings.Width, GameSettings.Height, GameSettings.MineCount, Cells);
         }
 
         public void Build(int width, int height, int mines, IList<CellData> cells)
@@ -58,32 +68,41 @@ namespace App.Scripts.Boards
             return Cells.First(z => z.X == x && z.Y == y);
         }
 
+        /// <summary>
+        /// Open a cell
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         public void Open(int x, int y)
         {
-            //Find the Specified CellData
+            //Get the CellData
             var selectedCell = Cells.First(cell => cell.X == x && cell.Y == y);
             selectedCell.IsRevealed.Value = true;
-            selectedCell.IsFlagged.Value = false; //Revealed cells cannot be flagged
 
-            //If the panel is a mine, game over!
+            //If open a mine, game over!
             if (selectedCell.IsMine.Value)
             {
                 Status.Value = GameStatus.Failed;
             }
 
-            //If the panel is a zero, cascade reveal neighbors
+            //If the cell is a zero, open neighbors
             if (!selectedCell.IsMine.Value && selectedCell.AdjacentMines.Value == 0)
             {
                 OpenEmptyCell(x, y);
             }
 
-            //If this move caused the game to be complete, mark it as such
+            //check if the game finished if there is no mine.
             if (!selectedCell.IsMine.Value)
             {
                 CheckForCompletion();
             }
         }
 
+        /// <summary>
+        /// Open an empty cell
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         private void OpenEmptyCell(int x, int y)
         {
             var neighborCells = GetNeighbors(x, y).Where(panel => !panel.IsRevealed.Value);
@@ -97,23 +116,28 @@ namespace App.Scripts.Boards
             }
         }
 
-
+        /// <summary>
+        /// First opening of a cell of the game, then place mines
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="rand"></param>
         public void FirstMove(int x, int y, Random rand)
         {
             var neighbors = GetNeighbors(x, y);
-            neighbors.Add(GetCellAt(x, y)); //Don't place a mine in the user's first move!
+            neighbors.Add(GetCellAt(x, y)); //there is no mine around user's first move
 
-            //Select random cells from set of cells which are not excluded by the first-move rule
+            //Select other cells in the map
             var mineList = Cells.Except(neighbors).OrderBy(user => rand.Next());
-            var mineSlots = mineList.Take(MineCount).ToList().Select(z => new {z.X, z.Y});
 
-            //Place the mines
+            //select random cells to place mines
+            var mineSlots = mineList.Take(MineCount).ToList().Select(z => new {z.X, z.Y});
             foreach (var mineCoord in mineSlots)
             {
                 Cells.Single(cell => cell.X == mineCoord.X && cell.Y == mineCoord.Y).IsMine.Value = true;
             }
 
-            //For every panel which is not a mine, determine and save the adjacent mines.
+            //calculate how mant adjacent mines around a cell
             foreach (var openCell in Cells.Where(cell => !cell.IsMine.Value))
             {
                 var nearbyCells = GetNeighbors(openCell.X, openCell.Y);
@@ -121,8 +145,10 @@ namespace App.Scripts.Boards
             }
         }
 
-        public List<CellData> GetNeighbors(int x, int y, int depth = 1)
+        public List<CellData> GetNeighbors(int x, int y)
         {
+            int depth = 1;
+                
             var nearbyCells = Cells.Where(cell => cell.X >= (x - depth) && cell.X <= (x + depth)
                                                                         && cell.Y >= (y - depth) &&
                                                                         cell.Y <= (y + depth));
@@ -141,6 +167,11 @@ namespace App.Scripts.Boards
             }
         }
 
+        /// <summary>
+        /// flag a cell
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         public void Flag(int x, int y)
         {
             var cell = Cells.FirstOrDefault(z => z.X == x && z.Y == y);
@@ -149,6 +180,5 @@ namespace App.Scripts.Boards
                 cell.IsFlagged.Value = true;
             }
         }
-
     }
 }

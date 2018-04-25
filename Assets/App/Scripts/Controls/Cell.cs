@@ -70,18 +70,22 @@ public class Cell : MonoBehaviour, ICell
                         break;
                     case global::CellType.M1:
                         textUI.text = "1";
+                        textUI.color = Color.blue;
 
                         break;
                     case global::CellType.M2:
                         textUI.text = "2";
+                        textUI.color = Color.cyan;
 
                         break;
                     case global::CellType.M3:
                         textUI.text = "3";
+                        textUI.color = Color.magenta;
 
                         break;
                     case global::CellType.M4:
                         textUI.text = "4";
+                        textUI.color = Color.blue;
 
                         break;
                     case global::CellType.M5:

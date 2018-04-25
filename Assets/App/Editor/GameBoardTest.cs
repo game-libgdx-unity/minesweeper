@@ -49,9 +49,19 @@ public class GameBoardTest : UnitTestFixture
         Assert.AreEqual(width * height, cells.Count); //total of cells
         Assert.AreEqual(mines, cells.Count(cell => cell.IsMine.Value)); //total of mines
     }
+    
+    [Test]
+    public void Test_Rx()
+    {
+        //Arrange
+        var rx = new BoolReactiveProperty();
+        var gameObject = new GameObject();
+        rx.Select(b => b.ToString()).RepeatUntilDestroy(gameObject).Subscribe(Debug.Log);
+        rx.Value = true;
+        rx.Value = true;
+    }
 
-    [
-        Test]
+    [Test]
     public void Test_GameBoard_FirstMove()
     {
         //Arrange
@@ -65,8 +75,7 @@ public class GameBoardTest : UnitTestFixture
         Assert.IsFalse(gameBoard.GetCellAt(firstMoveX, firstMoveY).IsMine.Value); //first move shouldn't get mine
     }
 
-    [
-        Test]
+    [Test]
     public void Test_GameBoard_AdjacentMines()
     {
         //Arrange

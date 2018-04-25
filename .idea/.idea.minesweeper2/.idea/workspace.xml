@@ -2,604 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="827d3a09-50ce-468c-a753-0e63cfadfc2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Editor/BoardIntegrationTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Editor/BoardIntegrationTest.cs.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/App/Resources/settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/App/Resources/settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Editor/TestUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/TestUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Prefabs/Main Camera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/App/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/Main Camera.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/Main Camera.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/canvasPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/canvasPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/cellPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/cellPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Development/CanvasPrefabTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/CanvasPrefabTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Production/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Production/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/SettingInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources/SettingInstaller.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/SettingInstaller.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources/SettingInstaller.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Settings/SettingInstaller.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Settings/SettingInstaller.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/AutoBind1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/AutoBind1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/AutoMocking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/AutoMocking.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/CheatSheet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/CheatSheet.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/CommandsAndSignals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/CommandsAndSignals.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/Factories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/Factories.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/MemoryPools.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/MemoryPools.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ReadMe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ReadMe.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ReleaseNotes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ReleaseNotes.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ShipFacadeExample1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ShipFacadeExample1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/Signals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/Signals.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/SubContainers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/SubContainers.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/WritingAutomatedTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/WritingAutomatedTests.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ZenjectLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Documentation/ZenjectLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/LICENSE.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/IntegrationTestTester.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/ProjenyPackage.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/ProjenyPackage.yaml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderNonGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderNonGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderWithParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderWithParams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolExpandBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolExpandBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolInitialSizeBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolInitialSizeBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderNonGeneric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderNonGeneric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeArgConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeArgConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeArgNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeArgNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeArgConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeArgConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeArgNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeArgNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeArgConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeArgConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeArgNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeArgNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConditionCopyNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConditionCopyNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeNonLazyBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeNonLazyBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/BindFinalizerWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/BindFinalizerWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/IBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/IBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerInstallerBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerInstallerBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerMethodBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerMethodBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabResourceBindingFinalizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabResourceBindingFinalizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/GameObjectContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/GameObjectContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/UnitTestFixture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/UnitTestFixture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Factory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Factory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/FactoryProviderWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/FactoryProviderWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/GameObjectFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/GameObjectFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/IFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/IFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectableInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectableInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/Lazy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/Lazy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/IInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/IInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Installer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Installer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/InstallerBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/InstallerBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Log.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Log.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ReflectionUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ReflectionUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ValuePair.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ValuePair.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/BindingId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/BindingId.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/IInstantiator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/IInstantiator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/FactoryProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/FactoryProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IFactoryResolveProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IFactoryResolveProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/IPrefabInstantiator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/IPrefabInstantiator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResourceProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResourceProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Prefab/PrefabResourceSingletonProviderCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Prefab/PrefabResourceSingletonProviderCreator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Prefab/PrefabSingletonProviderCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Prefab/PrefabSingletonProviderCreator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonId.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonImplIds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonImplIds.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonMarkRegistry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonMarkRegistry.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonProviderCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonProviderCreator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonTypes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SingletonTypes.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Standard.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Standard/StandardSingletonDeclaration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Standard/StandardSingletonDeclaration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Standard/StandardSingletonProviderCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/Standard/StandardSingletonProviderCreator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByNewPrefab.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByNewPrefab.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByNewPrefabResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Singleton/SubContainer/SubContainerSingletonProviderCreatorByNewPrefabResource.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/ISubContainerCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/ISubContainerCreator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabDynamicContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabDynamicContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorCached.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorCached.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerDependencyProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerDependencyProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/UntypedFactoryProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/UntypedFactoryProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorMoveHandlerManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorMoveHandlerManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorIkHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorIkHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DefaultGameObjectKernel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DefaultGameObjectKernel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/Kernel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/Kernel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/ISignalHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/ISignalHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/InstanceMethodSignalHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/InstanceMethodSignalHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal0.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal0.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/Signal4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalFromBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalFromBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalHandlerBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalHandlerBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalHandlerBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalHandlerBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/SignalManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/StaticMethodSignalHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/StaticMethodSignalHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/StaticMethodWithInstanceSignalHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Signals/StaticMethodWithInstanceSignalHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/IGuiRenderable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/IGuiRenderable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/IInitializable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/IInitializable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ILateDisposable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ILateDisposable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ITickable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ITickable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectAttributeBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectAttributeBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectLocalAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectLocalAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectOptionalAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectOptionalAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectSources.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/InjectSources.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ZenjectAllowDuringValidationAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/ZenjectAllowDuringValidationAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/PoolCleanupChecker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/PoolCleanupChecker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/UnityUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/UnityUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ValidationUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ValidationUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectTypeInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectTypeInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/IValidatable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/IValidatable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Version.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -609,26 +33,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GameBoardTest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="38" selection-start-line="25" selection-start-column="7" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="931">
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
               <folding>
-                <marker date="1524369297632" expanded="true" signature="6:265" ph="..." />
-                <marker date="1524369297632" expanded="true" signature="325:4109" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="528:1042" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="1096:1579" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="1585:1600" ph="[...]" />
-                <marker date="1524369297632" expanded="true" signature="1643:2098" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="2104:2119" ph="[...]" />
-                <marker date="1524369297632" expanded="true" signature="2166:3009" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="3061:4107" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="3471:4099" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="3494:3535" ph="/* Assert ... */" />
-                <marker date="1524369297632" expanded="true" signature="3702:3876" ph="{...}" />
-                <marker date="1524369297632" expanded="true" signature="3912:4089" ph="{...}" />
+                <marker date="1524659904787" expanded="false" signature="6:265" ph="..." />
+                <marker date="1524659904787" expanded="true" signature="325:4391" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="528:1042" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="1096:1579" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="1621:1879" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="1934:2389" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="2448:3291" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="3343:4389" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="3753:4381" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="3776:3817" ph="/* Assert ... */" />
+                <marker date="1524659904787" expanded="true" signature="3984:4158" ph="{...}" />
+                <marker date="1524659904787" expanded="true" signature="4194:4371" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -637,10 +60,10 @@
       <file leaf-file-name="TestUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="1275">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="19" />
               <folding>
-                <marker date="1524369470585" expanded="true" signature="6:283" ph="..." />
+                <marker date="1524369470585" expanded="false" signature="6:283" ph="..." />
                 <marker date="1524369470585" expanded="true" signature="343:3145" ph="{...}" />
                 <marker date="1524369470585" expanded="true" signature="452:964" ph="{...}" />
                 <marker date="1524369470585" expanded="true" signature="1037:1299" ph="{...}" />
@@ -653,19 +76,145 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapGenerator.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntegrationTestFixture.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/62/635db6d1/IntegrationTestFixture.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameBoard.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
+                <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="263:5940" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="554:669" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="696:813" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="843:966" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="976:1060" ph="/// Build a map using from setting file ... " />
+                <marker date="1524664112770" expanded="true" signature="1088:1199" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="1283:1769" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="1518:1759" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="1581:1745" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="1818:1897" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="1907:2041" ph="/// Open a cell ... " />
+                <marker date="1524664112770" expanded="true" signature="2080:2800" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="2336:2414" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="2552:2617" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="2724:2790" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="2810:2951" ph="/// Open an empty cell ... " />
+                <marker date="1524664112770" expanded="true" signature="3000:3392" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="3154:3382" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="3273:3368" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="3402:3618" ph="/// First opening of a cell of the game, then place mines ... " />
+                <marker date="1524664112770" expanded="true" signature="3675:4609" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="4137:4271" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="4412:4599" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="4667:5164" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="5208:5530" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="5439:5520" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="5540:5674" ph="/// flag a cell ... " />
+                <marker date="1524664112770" expanded="true" signature="5713:5934" ph="{...}" />
+                <marker date="1524664112770" expanded="true" signature="5851:5924" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapGenerator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="780">
+              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
               <folding>
-                <marker date="1524370245694" expanded="true" signature="6:208" ph="..." />
-                <marker date="1524370245694" expanded="true" signature="251:2160" ph="{...}" />
-                <marker date="1524370245694" expanded="true" signature="780:826" ph="{...}" />
-                <marker date="1524370245694" expanded="true" signature="851:2158" ph="{...}" />
-                <marker date="1524370245694" expanded="true" signature="1054:1224" ph="{...}" />
-                <marker date="1524370245694" expanded="true" signature="1361:1451" ph="{...}" />
-                <marker date="1524370245694" expanded="true" signature="1832:2001" ph="{...}" />
+                <marker date="1524664716697" expanded="false" signature="6:208" ph="..." />
+                <marker date="1524664716697" expanded="true" signature="251:1981" ph="{...}" />
+                <marker date="1524664716697" expanded="true" signature="780:826" ph="{...}" />
+                <marker date="1524664716697" expanded="true" signature="851:1979" ph="{...}" />
+                <marker date="1524664716697" expanded="true" signature="945:1115" ph="{...}" />
+                <marker date="1524664716697" expanded="true" signature="1252:1342" ph="{...}" />
+                <marker date="1524664716697" expanded="true" signature="1653:1822" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSolver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+              <folding>
+                <marker date="1524661735979" expanded="false" signature="6:173" ph="..." />
+                <marker date="1524661735979" expanded="true" signature="203:5445" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="248:5443" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="563:1760" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="730:1462" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="804:949" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1094:1246" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1267:1407" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1545:1618" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1677:1750" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1799:1978" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="1894:1968" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="2018:2298" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="2333:2768" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="2568:2717" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="2810:3451" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="2977:3414" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="3331:3400" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="3498:4265" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="3714:4255" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="3978:4241" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4113:4223" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4306:4944" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4506:4934" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4688:4920" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4798:4902" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="4989:5437" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="5167:5427" ph="{...}" />
+                <marker date="1524661735979" expanded="true" signature="5329:5413" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IGameBoard.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1524660906296" expanded="false" signature="8:49" ph="..." />
+                <marker date="1524660906296" expanded="true" signature="79:513" ph="{...}" />
+                <marker date="1524660906296" expanded="true" signature="122:511" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cell.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="98" column="45" lean-forward="true" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+              <folding>
+                <marker date="1524661859238" expanded="false" signature="7:242" ph="..." />
+                <marker date="1524661859238" expanded="true" signature="244:304" ph="/// UI implementation for cells ... " />
+                <marker date="1524661859238" expanded="true" signature="361:4018" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="607:3776" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="1294:1441" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="1858:3737" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="1946:3723" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="3820:3862" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="3907:3961" ph="{...}" />
+                <marker date="1524661859238" expanded="true" signature="4004:4016" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -674,14 +223,14 @@
       <file leaf-file-name="GameInstaller.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
-                <marker date="1524362116956" expanded="false" signature="6:168" ph="..." />
-                <marker date="1524362116956" expanded="true" signature="227:1594" ph="{...}" />
-                <marker date="1524362116956" expanded="true" signature="308:1592" ph="{...}" />
-                <marker date="1524362116956" expanded="true" signature="1359:1440" ph="{...}" />
-                <marker date="1524362116956" expanded="true" signature="1453:1586" ph="{...}" />
+                <marker date="1524371396825" expanded="false" signature="6:168" ph="..." />
+                <marker date="1524371396825" expanded="true" signature="227:1593" ph="{...}" />
+                <marker date="1524371396825" expanded="true" signature="308:1591" ph="{...}" />
+                <marker date="1524371396825" expanded="true" signature="1358:1439" ph="{...}" />
+                <marker date="1524371396825" expanded="true" signature="1452:1585" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -693,20 +242,52 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/ce/3e5feddd/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/UniRxSimple-master/Assets/Example1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/8a/8e253723/BoolReactiveProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/a4/1fa0b3c1/ObservableVisibleTrigger.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/84/683241c2/ObservableTriggerExtensions.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC2B129D-3FE5-43DE-A42B-7944B4971923/f7/b5b5d9e9/TestAttribute.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/62/635db6d1/IntegrationTestFixture.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/d4/6413290b/UnitTestFixture.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/ef/ec11a825/DiContainer.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC2B129D-3FE5-43DE-A42B-7944B4971923/f7/b5b5d9e9/TestAttribute.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/62/09813a9d/Disposable.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/ee/1867c96f/Unit.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/70/692761b1/ReactiveProperty`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scripts/Cells/CellData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/ZenjectUnitTestFixture.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/UnitTestFixture.cs" />
-        <option value="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/IntegrationTestFixture.cs" />
         <option value="$PROJECT_DIR$/Assets/App/Editor/TestUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Boards/IBoard.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/70/692761b1/ReactiveProperty`1.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Cells/CellData.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" />
         <option value="$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" />
       </list>
     </option>
@@ -718,8 +299,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
@@ -731,6 +311,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="minesweeper2" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
       <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -745,19 +337,10 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="minesweeper2" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Cell&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Controls/Cell.cs&#10;GameIn&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Installers/GameInstaller.cs&#10;Game&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Boards/GameBoard.cs&#10;GameI&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Installers/GameInstaller.cs&#10;cell&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Controls/Cell.cs&#10;TestUI&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Editor/TestUI.cs&#10;GameS&#9;null&#9;null&#10;Map&#9;FILE&#9;file:///Users/macbookpro/minesweeper2/Assets/App/Scripts/Controls/MapGenerator.cs&#10;CellDa&#9;null&#9;null&#10;TestGa&#9;null&#9;null&#10;Unit&#9;null&#9;null&#10;Integrate&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -797,15 +380,14 @@
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="6" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.13123845" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931355" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48428836" visible="true" weight="0.086794466" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Unity" visible="true" weight="0.19537038" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="right" id="Find" order="6" side_tool="true" visible="true" weight="0.21033014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48428836" visible="true" weight="0.08945687" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="11" weight="0.19537038" />
+      <window_info active="true" anchor="right" id="Find" order="6" side_tool="true" visible="true" weight="0.39616615" />
       <window_info x="719" y="363" width="314" height="1101" id="Structure" order="1" sideWeight="0.5231911" side_tool="true" weight="0.14802982" />
       <window_info anchor="right" id="Debug" order="5" weight="0.39947918" />
       <window_info id="Favorites" order="2" sideWeight="0.51571167" side_tool="true" weight="0.0" />
@@ -817,6 +399,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" weight="0.12513313" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
@@ -827,89 +410,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="51" column="80" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/BoardIntegrationTest.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/IntegrationTestFixture.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/UnitTestFixture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC2B129D-3FE5-43DE-A42B-7944B4971923/f7/b5b5d9e9/TestAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="38" selection-start-line="25" selection-start-column="7" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <marker date="1524369297632" expanded="true" signature="6:265" ph="..." />
-            <marker date="1524369297632" expanded="true" signature="325:4109" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="528:1042" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="1096:1579" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="1585:1600" ph="[...]" />
-            <marker date="1524369297632" expanded="true" signature="1643:2098" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="2104:2119" ph="[...]" />
-            <marker date="1524369297632" expanded="true" signature="2166:3009" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="3061:4107" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="3471:4099" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="3494:3535" ph="/* Assert ... */" />
-            <marker date="1524369297632" expanded="true" signature="3702:3876" ph="{...}" />
-            <marker date="1524369297632" expanded="true" signature="3912:4089" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/IntegrationTestFixture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.asmdef">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="525">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
-            <marker date="1524369470585" expanded="true" signature="6:283" ph="..." />
+            <marker date="1524369470585" expanded="false" signature="6:283" ph="..." />
             <marker date="1524369470585" expanded="true" signature="343:3145" ph="{...}" />
             <marker date="1524369470585" expanded="true" signature="452:964" ph="{...}" />
             <marker date="1524369470585" expanded="true" signature="1037:1299" ph="{...}" />
@@ -923,30 +429,641 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="49" />
           <folding>
-            <marker date="1524362116956" expanded="false" signature="6:168" ph="..." />
-            <marker date="1524362116956" expanded="true" signature="227:1594" ph="{...}" />
-            <marker date="1524362116956" expanded="true" signature="308:1592" ph="{...}" />
-            <marker date="1524362116956" expanded="true" signature="1359:1440" ph="{...}" />
-            <marker date="1524362116956" expanded="true" signature="1453:1586" ph="{...}" />
+            <marker date="1524371396825" expanded="false" signature="6:168" ph="..." />
+            <marker date="1524371396825" expanded="true" signature="227:1593" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="308:1591" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1358:1439" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1452:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <marker date="1524659904787" expanded="false" signature="6:265" ph="..." />
+            <marker date="1524659904787" expanded="true" signature="325:4391" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="528:1042" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1096:1579" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1621:1879" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1934:2389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="2448:3291" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3343:4389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3753:4381" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3776:3817" ph="/* Assert ... */" />
+            <marker date="1524659904787" expanded="true" signature="3984:4158" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="4194:4371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
+            <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="263:5940" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="554:669" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="696:813" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="843:966" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="976:1060" ph="/// Build a map using from setting file ... " />
+            <marker date="1524664112770" expanded="true" signature="1088:1199" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1283:1769" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1518:1759" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1581:1745" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1818:1897" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1907:2041" ph="/// Open a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="2080:2800" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2336:2414" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2552:2617" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2724:2790" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2810:2951" ph="/// Open an empty cell ... " />
+            <marker date="1524664112770" expanded="true" signature="3000:3392" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3154:3382" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3273:3368" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3402:3618" ph="/// First opening of a cell of the game, then place mines ... " />
+            <marker date="1524664112770" expanded="true" signature="3675:4609" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4137:4271" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4412:4599" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4667:5164" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5208:5530" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5439:5520" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5540:5674" ph="/// flag a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="5713:5934" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5851:5924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1524660906296" expanded="false" signature="8:49" ph="..." />
+            <marker date="1524660906296" expanded="true" signature="79:513" ph="{...}" />
+            <marker date="1524660906296" expanded="true" signature="122:511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="37" selection-end-column="85" />
+          <folding>
+            <marker date="1524622324650" expanded="false" signature="6:127" ph="..." />
+            <marker date="1524622324650" expanded="true" signature="170:1556" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="263:1388" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="270:1102" ph="/* var state = CustomInt.State.Default; ... */" />
+            <marker date="1524622324650" expanded="true" signature="1204:1382" ph="/* this.OnDisableAsObservable().Subscribe(_ =&gt; { print(&quot;Disabled&quot;); }).AddTo(this); ... */" />
+            <marker date="1524622324650" expanded="true" signature="1417:1554" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="1489:1548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1524375177870" expanded="false" signature="6:113" ph="..." />
+            <marker date="1524375177870" expanded="true" signature="210:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <marker date="1524369470585" expanded="false" signature="6:283" ph="..." />
+            <marker date="1524369470585" expanded="true" signature="343:3145" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="452:964" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1037:1299" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1364:1572" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1634:2083" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2146:3143" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2873:3055" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <marker date="1524371396825" expanded="false" signature="6:168" ph="..." />
+            <marker date="1524371396825" expanded="true" signature="227:1593" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="308:1591" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1358:1439" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1452:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1524660906296" expanded="false" signature="8:49" ph="..." />
+            <marker date="1524660906296" expanded="true" signature="79:513" ph="{...}" />
+            <marker date="1524660906296" expanded="true" signature="122:511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="37" selection-end-column="85" />
+          <folding>
+            <marker date="1524622324650" expanded="false" signature="6:127" ph="..." />
+            <marker date="1524622324650" expanded="true" signature="170:1556" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="263:1388" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="270:1102" ph="/* var state = CustomInt.State.Default; ... */" />
+            <marker date="1524622324650" expanded="true" signature="1204:1382" ph="/* this.OnDisableAsObservable().Subscribe(_ =&gt; { print(&quot;Disabled&quot;); }).AddTo(this); ... */" />
+            <marker date="1524622324650" expanded="true" signature="1417:1554" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="1489:1548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1524375177870" expanded="false" signature="6:113" ph="..." />
+            <marker date="1524375177870" expanded="true" signature="210:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
+            <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="263:5940" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="554:669" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="696:813" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="843:966" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="976:1060" ph="/// Build a map using from setting file ... " />
+            <marker date="1524664112770" expanded="true" signature="1088:1199" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1283:1769" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1518:1759" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1581:1745" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1818:1897" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1907:2041" ph="/// Open a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="2080:2800" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2336:2414" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2552:2617" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2724:2790" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2810:2951" ph="/// Open an empty cell ... " />
+            <marker date="1524664112770" expanded="true" signature="3000:3392" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3154:3382" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3273:3368" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3402:3618" ph="/// First opening of a cell of the game, then place mines ... " />
+            <marker date="1524664112770" expanded="true" signature="3675:4609" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4137:4271" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4412:4599" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4667:5164" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5208:5530" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5439:5520" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5540:5674" ph="/// flag a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="5713:5934" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5851:5924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <marker date="1524659904787" expanded="false" signature="6:265" ph="..." />
+            <marker date="1524659904787" expanded="true" signature="325:4391" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="528:1042" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1096:1579" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1621:1879" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1934:2389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="2448:3291" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3343:4389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3753:4381" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3776:3817" ph="/* Assert ... */" />
+            <marker date="1524659904787" expanded="true" signature="3984:4158" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="4194:4371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <marker date="1524369470585" expanded="false" signature="6:283" ph="..." />
+            <marker date="1524369470585" expanded="true" signature="343:3145" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="452:964" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1037:1299" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1364:1572" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1634:2083" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2146:3143" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2873:3055" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1524371396825" expanded="false" signature="6:168" ph="..." />
+            <marker date="1524371396825" expanded="true" signature="227:1593" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="308:1591" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1358:1439" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1452:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <marker date="1524622324650" expanded="false" signature="6:127" ph="..." />
+            <marker date="1524622324650" expanded="true" signature="170:1556" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="263:1388" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="270:1102" ph="/* var state = CustomInt.State.Default; ... */" />
+            <marker date="1524622324650" expanded="true" signature="1204:1382" ph="/* this.OnDisableAsObservable().Subscribe(_ =&gt; { print(&quot;Disabled&quot;); }).AddTo(this); ... */" />
+            <marker date="1524622324650" expanded="true" signature="1417:1554" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="1489:1548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1524375177870" expanded="false" signature="6:113" ph="..." />
+            <marker date="1524375177870" expanded="true" signature="210:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/UnitTestFixture.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC2B129D-3FE5-43DE-A42B-7944B4971923/f7/b5b5d9e9/TestAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Testing/IntegrationTestFixture.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.asmdef" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/d4/6413290b/UnitTestFixture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/62/09813a9d/Disposable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/ee/1867c96f/Unit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/a4/1fa0b3c1/ObservableVisibleTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/84/683241c2/ObservableTriggerExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="164" column="73" selection-start-line="164" selection-start-column="73" selection-end-line="164" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/ef/ec11a825/DiContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="1511" column="45" selection-start-line="1511" selection-start-column="45" selection-end-line="1511" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/8a/8e253723/BoolReactiveProperty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/70/692761b1/ReactiveProperty`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A44465-6763-4A55-A8BC-55712DCBE673/ce/3e5feddd/Observable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13620">
+          <caret line="908" column="33" selection-start-line="908" selection-start-column="33" selection-end-line="908" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1524375177870" expanded="false" signature="6:113" ph="..." />
+            <marker date="1524375177870" expanded="true" signature="210:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Cells/CellData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <marker date="1524659514547" expanded="false" signature="8:29" ph="..." />
+            <marker date="1524659514547" expanded="true" signature="52:587" ph="{...}" />
+            <marker date="1524659514547" expanded="true" signature="453:512" ph="{...}" />
+            <marker date="1524659514547" expanded="true" signature="573:585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1524622324650" expanded="false" signature="6:127" ph="..." />
+            <marker date="1524622324650" expanded="true" signature="170:1556" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="263:1388" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="270:1102" ph="/* var state = CustomInt.State.Default; ... */" />
+            <marker date="1524622324650" expanded="true" signature="1204:1382" ph="/* this.OnDisableAsObservable().Subscribe(_ =&gt; { print(&quot;Disabled&quot;); }).AddTo(this); ... */" />
+            <marker date="1524622324650" expanded="true" signature="1417:1554" ph="{...}" />
+            <marker date="1524622324650" expanded="true" signature="1489:1548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB2A28B6-2F37-4978-8D7B-487AE4F046FB/62/635db6d1/IntegrationTestFixture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/TestUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="19" />
+          <folding>
+            <marker date="1524369470585" expanded="false" signature="6:283" ph="..." />
+            <marker date="1524369470585" expanded="true" signature="343:3145" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="452:964" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1037:1299" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1364:1572" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="1634:2083" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2146:3143" ph="{...}" />
+            <marker date="1524369470585" expanded="true" signature="2873:3055" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+          <folding>
+            <marker date="1524659904787" expanded="false" signature="6:265" ph="..." />
+            <marker date="1524659904787" expanded="true" signature="325:4391" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="528:1042" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1096:1579" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1621:1879" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="1934:2389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="2448:3291" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3343:4389" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3753:4381" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="3776:3817" ph="/* Assert ... */" />
+            <marker date="1524659904787" expanded="true" signature="3984:4158" ph="{...}" />
+            <marker date="1524659904787" expanded="true" signature="4194:4371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <marker date="1524371396825" expanded="false" signature="6:168" ph="..." />
+            <marker date="1524371396825" expanded="true" signature="227:1593" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="308:1591" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1358:1439" ph="{...}" />
+            <marker date="1524371396825" expanded="true" signature="1452:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <marker date="1523685369794" expanded="true" signature="20:135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="98" column="45" lean-forward="true" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+          <folding>
+            <marker date="1524661859238" expanded="false" signature="7:242" ph="..." />
+            <marker date="1524661859238" expanded="true" signature="244:304" ph="/// UI implementation for cells ... " />
+            <marker date="1524661859238" expanded="true" signature="361:4018" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="607:3776" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="1294:1441" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="1858:3737" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="1946:3723" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="3820:3862" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="3907:3961" ph="{...}" />
+            <marker date="1524661859238" expanded="true" signature="4004:4016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1524660906296" expanded="false" signature="8:49" ph="..." />
+            <marker date="1524660906296" expanded="true" signature="79:513" ph="{...}" />
+            <marker date="1524660906296" expanded="true" signature="122:511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <marker date="1524661735979" expanded="false" signature="6:173" ph="..." />
+            <marker date="1524661735979" expanded="true" signature="203:5445" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="248:5443" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="563:1760" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="730:1462" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="804:949" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1094:1246" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1267:1407" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1545:1618" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1677:1750" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1799:1978" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="1894:1968" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="2018:2298" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="2333:2768" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="2568:2717" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="2810:3451" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="2977:3414" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="3331:3400" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="3498:4265" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="3714:4255" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="3978:4241" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4113:4223" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4306:4944" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4506:4934" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4688:4920" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4798:4902" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="4989:5437" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="5167:5427" ph="{...}" />
+            <marker date="1524661735979" expanded="true" signature="5329:5413" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="780">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
           <folding>
-            <marker date="1524370245694" expanded="true" signature="6:208" ph="..." />
-            <marker date="1524370245694" expanded="true" signature="251:2160" ph="{...}" />
-            <marker date="1524370245694" expanded="true" signature="780:826" ph="{...}" />
-            <marker date="1524370245694" expanded="true" signature="851:2158" ph="{...}" />
-            <marker date="1524370245694" expanded="true" signature="1054:1224" ph="{...}" />
-            <marker date="1524370245694" expanded="true" signature="1361:1451" ph="{...}" />
-            <marker date="1524370245694" expanded="true" signature="1832:2001" ph="{...}" />
+            <marker date="1524664716697" expanded="false" signature="6:208" ph="..." />
+            <marker date="1524664716697" expanded="true" signature="251:1981" ph="{...}" />
+            <marker date="1524664716697" expanded="true" signature="780:826" ph="{...}" />
+            <marker date="1524664716697" expanded="true" signature="851:1979" ph="{...}" />
+            <marker date="1524664716697" expanded="true" signature="945:1115" ph="{...}" />
+            <marker date="1524664716697" expanded="true" signature="1252:1342" ph="{...}" />
+            <marker date="1524664716697" expanded="true" signature="1653:1822" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
+            <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="263:5940" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="554:669" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="696:813" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="843:966" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="976:1060" ph="/// Build a map using from setting file ... " />
+            <marker date="1524664112770" expanded="true" signature="1088:1199" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1283:1769" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1518:1759" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1581:1745" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1818:1897" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="1907:2041" ph="/// Open a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="2080:2800" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2336:2414" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2552:2617" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2724:2790" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="2810:2951" ph="/// Open an empty cell ... " />
+            <marker date="1524664112770" expanded="true" signature="3000:3392" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3154:3382" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3273:3368" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="3402:3618" ph="/// First opening of a cell of the game, then place mines ... " />
+            <marker date="1524664112770" expanded="true" signature="3675:4609" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4137:4271" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4412:4599" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="4667:5164" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5208:5530" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5439:5520" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5540:5674" ph="/// flag a cell ... " />
+            <marker date="1524664112770" expanded="true" signature="5713:5934" ph="{...}" />
+            <marker date="1524664112770" expanded="true" signature="5851:5924" ph="{...}" />
           </folding>
         </state>
       </provider>

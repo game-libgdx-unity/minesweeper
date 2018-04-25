@@ -29,7 +29,7 @@ public class MapGenerator : MonoBehaviour
 
     public void Start()
     {
-        //setup game status
+        //setup game status, when it get changes
         gameStatus.Subscribe(status =>
             {
                 print("Game status: " + status.ToString());
@@ -50,7 +50,7 @@ public class MapGenerator : MonoBehaviour
         gridLayout.constraintCount = gameSetting.Width;
 
         //build the board
-        gameBoard.Build(gameSetting.Width, gameSetting.Height, gameSetting.MineCount, cellData);
+        gameBoard.Build();
 
         //create cells
         foreach (var data in cellData)

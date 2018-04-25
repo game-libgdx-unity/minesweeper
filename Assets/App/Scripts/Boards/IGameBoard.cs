@@ -8,9 +8,10 @@ namespace App.Scripts.Boards
         void Build(int width, int height, int mines, IList<CellData> cells);
         CellData GetCellAt(int firstMoveX, int firstMoveY);
         void Open(int randomX, int randomY);
-        List<CellData> GetNeighbors(int x, int y, int depth = 1);
+        List<CellData> GetNeighbors(int x, int y);
        
         void FirstMove(int randomX, int randomY, Random random);
         void Flag(int neighborX, int neighborY);
+        void Build();
     }
 }

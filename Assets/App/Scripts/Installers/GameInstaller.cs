@@ -28,7 +28,6 @@ public class GameInstaller : MonoInstaller<GameInstaller>
         Container.Bind<IGameSolver>().To<GameSolver>().AsSingle().NonLazy();
 
         var mapGenerator = FindObjectOfType<MapGenerator>();
-
         if (mapGenerator)
         {
             Container.BindInstance(mapGenerator).AsSingle();
