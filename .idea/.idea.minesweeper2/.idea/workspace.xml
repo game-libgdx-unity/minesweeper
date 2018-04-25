@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="827d3a09-50ce-468c-a753-0e63cfadfc2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/App/Resources/settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/App/Resources/settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/MovingObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.minesweeper2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/GameBoardTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Prefabs/Main Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/SettingInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources/SettingInstaller.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resources/SettingInstaller.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Editor/Resources/SettingInstaller.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Development/TestRxCreate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/GameSolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Boards/IGameBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Cells/CellType.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Controls/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Controls/MapGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Installers/GameInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scripts/Installers/SettingInstaller.cs" afterDir="false" />
-    </list>
+    <list default="true" id="827d3a09-50ce-468c-a753-0e63cfadfc2f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +65,8 @@
       <file leaf-file-name="GameBoard.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="295">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding>
                 <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
                 <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
@@ -1030,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/App/Scripts/Boards/GameBoard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="295">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <marker date="1524664112770" expanded="true" signature="6:191" ph="..." />
             <marker date="1524664112770" expanded="true" signature="221:5942" ph="{...}" />
