@@ -28,3 +28,12 @@ Please Note, it is possible that solver may fail to open the whole field.
 Updates:
 * Added an EventSystem object to GameScene 
 * More optimized for system using reactive programming (UniRx)"
+
+Watch those videos on Youtube for explaining how this works.
+
+part 1: Introduce the game (open project, run the game, etc)
+https://youtu.be/Arve8BjagZQ
+
+part 2: more about game logics, inversion of controls and reactive programming.
+https://youtu.be/NZW1xmH5-6g
+
