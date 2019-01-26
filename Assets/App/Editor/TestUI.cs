@@ -28,35 +28,17 @@ public class TestUI : IntegrationTestFixture
         context.Installers = new List<MonoInstaller>() {gameInstaller};
         
         context.Install();
-        this.SceneContext = context;
+        SceneContext = context;
     }
 
     [UnityTest]
-    public IEnumerator Test_GameBoard_SetupFromPrefab()
-    {
-        PreInstall();
-        Install();
-        
-        yield return null;
-        
-        PostInstall();
-
-        var gameBoard = Container.Resolve<IGameBoard>();
-        
-        Assert.IsNotNull(gameBoard);
-        Assert.IsNotNull(Container);
-    }
-
-    [UnityTest]
-    public IEnumerator Test_GameBoard_NotNull()
+    public IEnumerator Test__GameBoard_NotNull()
     {
         PreInstall();
         Install();
         
         var gameBoard = Container.Resolve<IGameBoard>();
-
-        PostInstall();
-
+        
         Assert.IsNotNull(gameBoard);
         yield return null;
     }
@@ -69,8 +51,6 @@ public class TestUI : IntegrationTestFixture
 
         var cellFactory = Container.Resolve<IFactory<ICell>>();
         var parentTransform = Container.Resolve<MapGenerator>().transform;
-        
-        PostInstall();
 
         var cell = cellFactory.Create() as Cell;
         cell.SetParent(parentTransform);
@@ -92,8 +72,6 @@ public class TestUI : IntegrationTestFixture
         var gameBoard = Container.Resolve<IGameBoard>();
         var cellData = Container.Resolve<IList<CellData>>();
         var cells = Container.Resolve<IList<ICell>>();
-        
-        PostInstall();
        
         gameBoard.Build(width, height, mines, cellData);
 

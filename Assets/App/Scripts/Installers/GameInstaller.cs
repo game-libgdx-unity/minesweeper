@@ -13,8 +13,7 @@ public class GameInstaller : MonoInstaller<GameInstaller>
     public override void InstallBindings()
     {
         Container.BindFactory<int, int, int, CellData, CellData.Factory>().FromNew();
-        Container.BindFactoryContract<ICell, IFactory<ICell>, Cell.Factory>()
-            .FromComponentInNewPrefab(settings.cellPrefab);
+        Container.BindFactoryContract<ICell, IFactory<ICell>, Cell.Factory>().FromComponentInNewPrefab(settings.cellPrefab);
 
         Container.Bind<IList<ICell>>().FromInstance(new List<ICell>()).AsSingle();
         Container.Bind<IList<CellData>>().FromInstance(new List<CellData>()).AsSingle();
